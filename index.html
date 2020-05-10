@@ -1,0 +1,348 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Anna Steel & Furniture</title>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+
+		<script>
+			function open_menu()
+			{
+				document.getElementById("side-menu").style.display="block";
+				document.getElementById("menu-btn").style.display="none";
+				document.getElementById("close-btn").style.display="block";
+			}
+
+			function close_menu()
+			{
+				document.getElementById("side-menu").style.display="none";
+				document.getElementById("menu-btn").style.display="block";
+				document.getElementById("close-btn").style.display="none";
+			}
+		</script>
+
+	</head>
+	<body>
+		<div class="top-nav-bar">
+			<div class="search-box">
+				<i class="fa fa-bars" id="menu-btn" onclick="open_menu()" aria-hidden="true"></i>
+				<i class="fa fa-times" id="close-btn" onclick="close_menu()" aria-hidden="true"></i>
+				<a href="index.html"><img src="logo.png" class="logo"></a>
+				<input type="text" class="form-control">
+				<span class="input-group-text"> <i class="fa fa-search" aria-hidden="true"></i> </span>
+			</div>
+
+<!---https://goo.gl/maps/HYbUNUwnrLwUR3m5A--->
+
+
+			<div class="menu-bar">
+				<ul>
+					<li><a href="#"><i class="fa fa-shopping-basket" aria-hidden="true"></i>Cart</a></li>
+					<li><a href="https://goo.gl/maps/GKoNq6QnuiyHwWcS7" target="_"><i class="fa fa-map-marker" aria-hidden="true"></i>Get Direction</a></li>
+					<li><a href="contact_us.html" target="_"><i class="fa fa-phone-square" aria-hidden="true"></i>Contact us</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<section class="header">
+			<div class="side-menu" id="side-menu">
+				<ul>
+					<a href="gallery.html"><li>Gallery</li></a>
+					<li>Our Product<i class="fa fa-angle-right" aria-hidden="true"></i>
+						<ul>
+							<a href="#"><li>Almerah sub-1</li></a>
+							<a href="#"><li>Showcasesub-2</li></a>
+							<a href="#"><li>Steel Furnituressub-3</li></a>
+						</ul>
+					</li>
+					<a href="#on-sale"><li>On Sale</li></a>
+					<a href="#new-arrival"><li>New Arrivals</li></a>	
+					<li>Testimonial</li>
+				</ul>
+			</div>
+			<div class="slider">
+				<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+  					<div class="carousel-inner">
+    					<div class="carousel-item active">
+      						<img src="slider_img/img1.jpg" class="d-block w-100">
+    					</div>
+    					<div class="carousel-item">
+      						<img src="slider_img/img2.jpg" class="d-block w-100">
+    					</div>
+    					<div class="carousel-item">
+      						<img src="slider_img/img3.jpg" class="d-block w-100">
+    					</div>
+    					<div class="carousel-item">
+      						<img src="slider_img/img4.jpg" class="d-block w-100">
+    					</div>
+  					</div>
+  					<ol class="carousel-indicators">
+    					<li data-target="#slider" data-slide-to="0" class="active"></li>
+    					<li data-target="#slider" data-slide-to="1"></li>
+    					<li data-target="#slider" data-slide-to="2"></li>
+    					<li data-target="#slider" data-slide-to="3"></li>
+  					</ol>
+				</div>
+			</div> 
+		</section>	
+		<!-------------featured categories-------------->			
+		<section class="featured-categories">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<img src="category_img/feature1.jpg">
+					</div>
+					<div class="col-md-4">
+						<img src="category_img/feature3.jpg">
+					</div>
+					<div class="col-md-4">
+						<img src="category_img/feature4.jpg">
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<a name="on-sale"></a>
+		<!----------on sale-------------------->
+		<section class="on-sale">
+			<div class="container">
+				<div class="title-box">
+					<h2>On Sale</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="product-top">
+						<a href="product_details.html"><img src="product/product1.jpeg"></a>
+							<div class="overlay-right">
+								<button type="button" class="btn btn-secondary" title="Quick Shop">
+									<i class="fa fa-eye" aria-hidden="true"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+									<i class="fa fa-heart-o" aria-hidden="true"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Cart">
+									<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+								</button>
+							</div>
+					</div>
+					<div class="product-bottom text-center">
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star-half-o" aria-hidden="true"></i>
+						<h3>Watch</h3>
+						<h4><i class="fa fa-inr" aria-hidden="true">12000</i></h4>
+
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="product-top">
+						<a href="product_details.html"><img src="product/product2.jpeg"></a>
+							<div class="overlay-right">
+								<button type="button" class="btn btn-secondary" title="Quick Shop">
+									<i class="fa fa-eye" aria-hidden="true"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+									<i class="fa fa-heart-o" aria-hidden="true"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Cart">
+									<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+								</button>
+							</div>
+					</div>
+					<div class="product-bottom text-center">
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star-half-o" aria-hidden="true"></i>
+						<h3>Watch1</h3>
+						<h4><i class="fa fa-inr" aria-hidden="true">14000</i></h4>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="product-top">
+						<a href="product_details.html"><img src="product/product3.jpeg"></a>
+							<div class="overlay-right">
+								<button type="button" class="btn btn-secondary" title="Quick Shop">
+									<i class="fa fa-eye" aria-hidden="true"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+									<i class="fa fa-heart-o" aria-hidden="true"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Cart">
+									<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+								</button>
+							</div>
+					</div>
+					<div class="product-bottom text-center">
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star-half-o" aria-hidden="true"></i>
+						<h3>Watch2</h3>
+						<h4><i class="fa fa-inr" aria-hidden="true">10000</i></h4>
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<a name="new-arrival"></a>
+		<!---------new arrival------->
+		<section class="new-product">
+			<div class="container">
+				<div class="title-box">
+					<h2>New Arrival</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="product-top">
+						<a href="product_details.html"><img src="product/product1.jpeg"></a>
+							<div class="overlay-right">
+								<button type="button" class="btn btn-secondary" title="Quick Shop">
+									<i class="fa fa-eye" aria-hidden="true"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+									<i class="fa fa-heart-o" aria-hidden="true"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Cart">
+									<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+								</button>
+							</div>
+					</div>
+					<div class="product-bottom text-center">
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star-half-o" aria-hidden="true"></i>
+						<h3>Watch</h3>
+						<h4><i class="fa fa-inr" aria-hidden="true">12000</i></h4>
+
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="product-top">
+						<a href="product_details.html"><img src="product/product2.jpeg"></a>
+							<div class="overlay-right">
+								<button type="button" class="btn btn-secondary" title="Quick Shop">
+									<i class="fa fa-eye" aria-hidden="true"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+									<i class="fa fa-heart-o" aria-hidden="true"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Cart">
+									<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+								</button>
+							</div>
+					</div>
+					<div class="product-bottom text-center">
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star-half-o" aria-hidden="true"></i>
+						<h3>Watch1</h3>
+						<h4><i class="fa fa-inr" aria-hidden="true">14000</i></h4>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="product-top">
+						<a href="product_details.html"><img src="product/product3.jpeg"></a>
+							<div class="overlay-right">
+								<button type="button" class="btn btn-secondary" title="Quick Shop">
+									<i class="fa fa-eye" aria-hidden="true"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+									<i class="fa fa-heart-o" aria-hidden="true"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Cart">
+									<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+								</button>
+							</div>
+					</div>
+					<div class="product-bottom text-center">
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star-half-o" aria-hidden="true"></i>
+						<h3>Watch2</h3>
+						<h4><i class="fa fa-inr" aria-hidden="true">10000</i></h4>
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!---------features-------->
+		<section class="website-features">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 feature-box">
+						<img src="features/feature1.png">
+							<div class="feature-text">
+								<p><b>100% Original Iteams</b> are available</p>
+							</div>
+					</div>
+					<div class="col-md-3 feature-box">
+						<img src="features/delivery.jpeg">
+							<div class="feature-text">
+								<p><b> Get Free Delivery</b> for every order</p>
+							</div>
+					</div>
+					<div class="col-md-3 feature-box">
+						<img src="features/no_return.jpeg">
+							<div class="feature-text">
+								<p>we follow <b> No Return Policy</b> onece delivered</p>
+							</div>
+					</div>
+					<div class="col-md-3 feature-box">
+						<img src="features/online_pament.jpeg">
+							<div class="feature-text">
+								<p><b> Pay online through multiple</b> options(Google pay/Paytm)</p>
+							</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<!--------footer--------->
+		<section class="footer">
+			<div class="container text-center">
+				<div class="row">
+					<div class="col-md-3">
+						<h1>Useful Links</h1>
+						<p>Privacy Policy</p>
+						<p>Terms of Use</p>
+						<p>Return Policy</p>
+					</div>
+					<div class="col-md-3">
+						<h1>Organization</h1>
+						<a href="#"><p>About Us</p></a>
+						<a href="contact_us.html" target="_"><p>Contact Us</p></a>
+					</div>
+					<div class="col-md-3">
+						<h1>Follow Us</h1>
+						<a href="#"><p><i class="fa fa-facebook-official" aria-hidden="true"></i>Facebook</p></a>
+						<a href="#"><p><i class="fa fa-instagram" aria-hidden="true"></i>Instagram</p></a>
+						<a href="#"><p><i class="fa fa-twitter" aria-hidden="true"></i>Twitter</p></a>
+					</div>
+				</div>
+				<hr>
+				<p class="copy right"><i class="fa fa-copyright" aria-hidden="true"></i>copy-right 2020 reserved</p>
+			</div>
+		</section>
+
+	</body>
+</html>
